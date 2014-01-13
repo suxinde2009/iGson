@@ -65,6 +65,7 @@
 		1F90EF66184C82D7007F3876 /* GBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBJSON.m; sourceTree = "<group>"; };
 		1F90EF69184C82E5007F3876 /* iSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSON.h; sourceTree = "<group>"; };
 		1F90EF6A184C82E5007F3876 /* iSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSON.m; sourceTree = "<group>"; };
+		1FCC019C18844ECE0076763A /* ObjectiveCGenerics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCGenerics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +125,7 @@
 		1F6CA4C3183F4CC200AB70B2 /* iGson */ = {
 			isa = PBXGroup;
 			children = (
+				1FCC019C18844ECE0076763A /* ObjectiveCGenerics.h */,
 				1F6CA4CC183F4CC200AB70B2 /* AppDelegate.h */,
 				1F6CA4CD183F4CC200AB70B2 /* AppDelegate.m */,
 				1F6CA4F2183F4DC900AB70B2 /* iGson.h */,

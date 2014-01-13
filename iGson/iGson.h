@@ -75,8 +75,11 @@
 
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
+#import "ObjectiveCGenerics.h"
 
 #pragma mark iGson
+
+GENERICSABLE(iGson)
 
 @interface iGson : NSObject
 
@@ -103,6 +106,8 @@
 
 // 用于各个子类测试json解析
 - (void)testJsonParse;
+
+@property (nonatomic, strong) NSString* name;
 
 @end
 

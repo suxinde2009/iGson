@@ -139,6 +139,7 @@
 
 
 @implementation iGson
+@synthesize name;
 
 + (BOOL)isPropertyReadOnly:(objc_property_t)property
 {
